@@ -1,7 +1,7 @@
-var withMenuItemsClass = document.getElementsByClassName('button');
+var buttonElement = document.getElementsByClassName('button');
 
-console.log(withMenuItemsClass);
+console.log(buttonElement);
 
-for (var x = 0; x < withMenuItemsClass.length; x++) {
-    alert(withMenuItemsClass[x].innerText);
+for (var x = 0; x < buttonElement.length; x++) {
+    alert(buttonElement[x].innerText);
 }
